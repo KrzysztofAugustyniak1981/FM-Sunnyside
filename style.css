@@ -21,7 +21,7 @@ header {
     color: #FFFFFF;
     height: 700px;
 }
-a {
+header a {
     text-decoration: none;
     color: #FFFFFF;
     text-align: right;
@@ -44,7 +44,7 @@ a {
     text-align: right;
     font-family: 'Barlow', sans-serif;
 }
-a:hover {
+header a:hover {
     border-radius: 25px;
     background-color: #FFFFFF;
     color: #000000;
@@ -179,13 +179,20 @@ footer {
     width: 1440px;
     height: 720px;
     text-align: center;
+    font-size: 12px;
+    
 }
-a.footerlink {
+footer a {
     color: #25564b;
+    text-decoration: none;
+    margin: 0px 30px;
 }
-a.footerlink:hover {
+footer a:hover {
     color: white;
-    border-radius: 0px;
-    background-color: none;
-    padding: 0px;
+}
+a svg:hover #facebook,
+a svg:hover #pinterest,
+a svg:hover #twitter,
+a svg:hover #instagram {
+    fill: white;
 }
